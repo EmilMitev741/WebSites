@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="queries.css">
+    <link rel="stylesheet" href="http://use.fontawesome.com/releases/v6.2.1/css/all.css">
+    <title>Apollo Jade - photographer</title>
+</head>
+
+<body>
+    <main class="grid">
+        <section class="section-hero container grid grid-2-cols">
+            <section class="nav flex flex-col">
+                <div>
+                    <span class="nav-title">Menu</span>
+
+                    <button class="btn-nav">
+                        <i class="fa-solid fa-bars fa-2x open-icon icon"></i>
+                        <i class="fa-solid fa-x close-icon close-icon hidden icon"></i>
+                    </button>
+                </div>
+
+                <nav class="nav-list">
+                    <ul class="nav-list-items flex flex-col">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#my-story" class="nav-link">My Story</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#first-pic" class="nav-link">My First Picture</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#feature" class="nav-link">Feature</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#gallery" class="nav-link">Gallery</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#cta" class="nav-link">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+
+            <div class="content">
+                <h2 class="title">
+                    <span class="name">Apollo</span>
+                    Jade Template
+                </h2>
+
+                <p class="text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex.
+                </p>
+                <span class="verticalLine"></span>
+            </div>
+
+            <img src="images/hero.png" alt="" class="hero-img">
+        </section>
+
+        <section class="section-info container grid grid-2-cols" id="my-story">
+            <img src="images/camera.png" alt="" class="info-img">
+
+            <div class="content">
+                <span class="horisontalLine"></span>
+
+                <h2 class="title">
+                    My name is
+                    <span class="name">Apollo</span>
+                </h2>
+
+                <p class="text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt
+                    mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                    veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+                    quia
+                    voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
+                    ratione
+                    voluptatem sequi nesciunt.
+                </p>
+
+                <p class="text">Ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
+                    tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+
+                <div>
+                    <ul class="socials-list grid grid-4-cols">
+                        <li>
+                            <a href="#" class="social-item">
+                                <i class="fa-brands fa-facebook-f icon"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="social-item">
+                                <i class="fa-brands fa-instagram icon"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="social-item">
+                                <i class="fa-brands fa-twitter icon"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="social-item">
+                                <i class="fa-brands fa-pinterest-p icon"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-img container" id="first-pic">
+            <img src="images/thumb-1.jpeg" alt="" class="photoWoman">
+        </section>
+
+        <section class="section-feature container grid grid-2-cols" id="feature">
+            <div class="content">
+                <p class="title">
+                    <span class="name">Ut enim</span> ad minim
+                </p>
+
+                <p class="text">
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                    voluptatem sequi nesciunt.
+                </p>
+
+                <span class="verticalLine"></span>
+            </div>
+
+            <img src="images/featured.jpeg" alt="" class="feature-img">
+        </section>
+
+        <section class="section-gallery container grid grid-3-cols" id="gallery">
+            <img src="images/thumb-3.jpeg" alt="">
+
+            <img src="images/thumb-4.jpeg" alt="" class="gallery-mid-img">
+
+            <img src="images/thumb-122.jpeg" alt="">
+        </section>
+
+        <section class="section-cta container flex flex-col" id="cta">
+            <div class="cta-content">
+                <p class="title"><span class="name">Say</span> Hello</p>
+
+                <p class="text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat nulla pariatur. Aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+                    eos qui ratione voluptatem sequi nesciunt. </p>
+
+            </div>
+
+            <form class="cta-form grid grid-2-cols">
+                <input type="email" class="email" id="email" placeholder="Your Email" required>
+
+                <input type="text" class="subject" id="subject" placeholder="Subject" required>
+
+                <textarea type="text" class="message" id="message" placeholder="Message" required></textarea>
+
+                <button class="btn-form" id="send-msg">Send message</button>
+            </form>
+        </section>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+/* =================================== */
+/* 912px = 57em */
+@media (max-width: 57em) {
+    .container {
+        height: auto;
+    }
+}
+
+/* =================================== */
+/* 656px = 41em */
+@media (max-width: 41em) {
+    html {
+        font-size: 55%;
+    }
+
+    .grid-2-cols {
+        grid-template-columns: 1fr;
+    }
+
+    .info-img {
+        width: 60%;
+    }
+
+    .section-gallery {
+        padding: 4.8rem 5.6rem;
+    }
+}
